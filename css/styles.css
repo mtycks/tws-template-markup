@@ -45,7 +45,7 @@
     left: -29px;
     width: 2px;
     height: 100%;
-    background-color: #c0392b;
+    background-color:#c0392b;
   }
 
   #progress-list-container li.progress-last:before{
@@ -78,28 +78,84 @@
   }
 
   #progress-list .section-title a:after{
+    color:#FFFFFF;
+    font-size:9px;
+    font-weight:bold;
+    text-align:center;
+    line-height:16px;
     left: -36px;
     top: 10px;
     width: 16px;
     height: 16px;
     border-radius:16px;
+    background-color:#FFFFFF;
+  }
+
+  #progress-list .section-title.section-1 a:after{
+    content:"1";
+    color:#0053a0;
+    border:1px solid #0053a0;
+  }
+
+  #progress-list .section-title.section-2 a:after{
+    content:"2";
+    color:#00aeef;
+    border:1px solid #00aeef;
+  }
+
+  #progress-list .section-title.section-3 a:after{
+    content:"3";
+    color:#05d0d7;
+    border:1px solid #05d0d7;
+  }
+
+  #progress-list .section-title.section-4 a:after{
+    content:"4";
+    color:#14dda2;
+    border:1px solid #14dda2;
+  }
+
+  #progress-list .section-title.section-5 a:after{
+    content:"5";
+    color:#fdce10;
+    border:1px solid #fdce10;
+  }
+
+  #progress-list .section-title.section-6 a:after{
+    content:"6";
+    color:#fdc04c;
+    border:1px solid #fdc04c;
+  }
+
+  #progress-list .section-title.section-7 a:after{
+    content:"7";
+    color:#ff6829;
+    border:1px solid #ff6829;
   }
 
   /* Section Specific colors */
   #progress-list-container li.section-1:before,
-  #progress-list .section-1 a:after{background-color:#0053a0}
+  #progress-list .section-1.section-title.complete a:after,
+  #progress-list .section-1.progress-item a:after{background-color:#0053a0;color:#FFFFFF}
   #progress-list-container li.section-2:before,
-  #progress-list .section-2 a:after{background-color:#00aeef}
+  #progress-list .section-2.section-title.complete a:after,
+  #progress-list .section-2.progress-item a:after{background-color:#00aeef;color:#FFFFFF}
   #progress-list-container li.section-3:before,
-  #progress-list .section-3 a:after{background-color:#05d0d7}
+  #progress-list .section-3.section-title.complete a:after,
+  #progress-list .section-3.progress-item a:after{background-color:#05d0d7;color:#FFFFFF}
   #progress-list-container li.section-4:before,
-  #progress-list .section-4 a:after{background-color:#14dda2}
+  #progress-list .section-4.section-title.complete a:after,
+  #progress-list .section-4.progress-item a:after{background-color:#14dda2;color:#FFFFFF}
   #progress-list-container li.section-5:before,
-  #progress-list .section-5 a:after{background-color:#fdce10}
+  #progress-list .section-5.section-title.complete a:after,
+  #progress-list .section-5.progress-item a:after{background-color:#fdce10;color:#FFFFFF}
   #progress-list-container li.section-6:before,
-  #progress-list .section-6 a:after{background-color:#fdc04c}
+  #progress-list .section-6.section-title.complete a:after,
+  #progress-list .section-6.progress-item a:after{background-color:#fdc04c;color:#FFFFFF}
   #progress-list-container li.section-7:before,
-  #progress-list .section-7 a:after{background-color:#ff6829}
+  #progress-list .section-7.section-title.complete a:after,
+  #progress-list .section-7.progress-item a:after,
+  #progress-list .progress-last a:after{background-color:#ff6829;color:#FFFFFF}
 
 
 footer{
