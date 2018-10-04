@@ -31,6 +31,77 @@
     background-image:url(../images/sea_life_58_argonaut.png);
   }
 
+
+#progress-list-container{}
+
+  #progress-list{
+    margin:0 0 40px 30px;
+  }
+
+  #progress-list-container li:before{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: -29px;
+    width: 2px;
+    height: 100%;
+    background-color: #c0392b;
+  }
+
+  #progress-list-container li.progress-last:before{
+    height:0;
+  }
+
+  #progress-list li{
+    padding:5px 0;
+    position:relative;
+  }
+
+  #progress-list a:after{
+    content: "";
+    position: absolute;
+    left: -32px;
+    top: 15px;
+    width: 8px;
+    height: 8px;
+    border-radius:8px;
+  }
+
+  #progress-list a{
+    color:#6D6D6D;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:11px;
+  }
+
+  #progress-list .section-title a{
+    font-weight:bold;
+  }
+
+  #progress-list .section-title a:after{
+    left: -36px;
+    top: 10px;
+    width: 16px;
+    height: 16px;
+    border-radius:16px;
+  }
+
+  /* Section Specific colors */
+  #progress-list-container li.section-1:before,
+  #progress-list .section-1 a:after{background-color:#0053a0}
+  #progress-list-container li.section-2:before,
+  #progress-list .section-2 a:after{background-color:#00aeef}
+  #progress-list-container li.section-3:before,
+  #progress-list .section-3 a:after{background-color:#05d0d7}
+  #progress-list-container li.section-4:before,
+  #progress-list .section-4 a:after{background-color:#14dda2}
+  #progress-list-container li.section-5:before,
+  #progress-list .section-5 a:after{background-color:#fdce10}
+  #progress-list-container li.section-6:before,
+  #progress-list .section-6 a:after{background-color:#fdc04c}
+  #progress-list-container li.section-7:before,
+  #progress-list .section-7 a:after{background-color:#ff6829}
+
+
 footer{
   border-top:1px solid rgba(202,202,202,0.5);
 }
