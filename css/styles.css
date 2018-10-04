@@ -32,6 +32,31 @@
   }
 
 footer{
+  border-top:1px solid rgba(202,202,202,0.5);
+}
+
+  #footer-top{
+    background-image:url(../images/footer-illustration.png);
+    background-size:50% auto;
+    background-repeat:no-repeat;
+    background-position:right 20px;
+  }
+
+  footer .footer-nav-title{
+    color:#00AEEF;
+    font-size:12px;
+    font-weight:bold;
+    text-transform:uppercase;
+  }
+  footer .list-unstyled li{
+    margin:0;
+  }
+  footer .list-unstyled a{
+    font-size:11px;
+    color:#3e3e3e;
+  }
+
+#copyright{
   color:#FFFFFF;
   font-size:12px;
 }
