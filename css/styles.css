@@ -160,14 +160,11 @@
 
 footer{
   border-top:1px solid rgba(202,202,202,0.5);
+  background-image:url(../images/footer-illustration.png);
+  background-size:50% auto;
+  background-repeat:no-repeat;
+  background-position:right 20px;
 }
-
-  #footer-top{
-    background-image:url(../images/footer-illustration.png);
-    background-size:50% auto;
-    background-repeat:no-repeat;
-    background-position:right 20px;
-  }
 
   footer .footer-nav-title{
     color:#00AEEF;
@@ -194,5 +191,32 @@ footer{
   background: -moz-linear-gradient(left, #0053a0 0%, #00aeef 50%, #14dda2 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left, #0053a0 0%,#00aeef 50%,#14dda2 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, #0053a0 0%,#00aeef 50%,#14dda2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0053a0', endColorstr='#14dda2',GradientType=1 ); /* IE6-9 *
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0053a0', endColorstr='#14dda2',GradientType=1 ); /* IE6-9 */
 }
+
+
+@media(max-width: 1199.98px){
+
+  footer{
+    background-position: right 40px;
+  }
+
+}
+
+@media(max-width: 991.98px){
+
+  footer{
+    background-position: right 70px;
+  }
+
+}
+
+@media(max-width: 767.98px){
+
+  footer{
+    background-image:none;
+  }
+
+}
+
+@media(max-width: 575.98px){  }
