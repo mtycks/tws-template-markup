@@ -133,28 +133,70 @@
     border:1px solid #ff6829;
   }
 
+  #progress-list .progress-item.section-1 a:after{
+    color:#0053a0;
+    border:1px solid #0053a0;
+    background-color:#FFF;
+  }
+
+  #progress-list .progress-item.section-2 a:after{
+    color:#00aeef;
+    border:1px solid #00aeef;
+    background-color:#FFF;
+  }
+
+  #progress-list .progress-item.section-3 a:after{
+    color:#05d0d7;
+    border:1px solid #05d0d7;
+    background-color:#FFF;
+  }
+
+  #progress-list .progress-item.section-4 a:after{
+    color:#14dda2;
+    border:1px solid #14dda2;
+    background-color:#FFF;
+  }
+
+  #progress-list .progress-item.section-5 a:after{
+    color:#fdce10;
+    border:1px solid #fdce10;
+    background-color:#FFF;
+  }
+
+  #progress-list .progress-item.section-6 a:after{
+    color:#fdc04c;
+    border:1px solid #fdc04c;
+    background-color:#FFF;
+  }
+
+  #progress-list .progress-item.section-7 a:after{
+    color:#ff6829;
+    border:1px solid #ff6829;
+    background-color:#FFF;
+  }
+
   /* Section Specific colors */
   #progress-list-container li.section-1:before,
   #progress-list .section-1.section-title.complete a:after,
-  #progress-list .section-1.progress-item a:after{background-color:#0053a0;color:#FFFFFF}
+  #progress-list .section-1.progress-item.complete a:after{background-color:#0053a0;color:#FFFFFF}
   #progress-list-container li.section-2:before,
   #progress-list .section-2.section-title.complete a:after,
-  #progress-list .section-2.progress-item a:after{background-color:#00aeef;color:#FFFFFF}
+  #progress-list .section-2.progress-item.complete a:after{background-color:#00aeef;color:#FFFFFF}
   #progress-list-container li.section-3:before,
   #progress-list .section-3.section-title.complete a:after,
-  #progress-list .section-3.progress-item a:after{background-color:#05d0d7;color:#FFFFFF}
+  #progress-list .section-3.progress-item.complete a:after{background-color:#05d0d7;color:#FFFFFF}
   #progress-list-container li.section-4:before,
   #progress-list .section-4.section-title.complete a:after,
-  #progress-list .section-4.progress-item a:after{background-color:#14dda2;color:#FFFFFF}
+  #progress-list .section-4.progress-item.complete a:after{background-color:#14dda2;color:#FFFFFF}
   #progress-list-container li.section-5:before,
   #progress-list .section-5.section-title.complete a:after,
-  #progress-list .section-5.progress-item a:after{background-color:#fdce10;color:#FFFFFF}
+  #progress-list .section-5.progress-item.complete a:after{background-color:#fdce10;color:#FFFFFF}
   #progress-list-container li.section-6:before,
   #progress-list .section-6.section-title.complete a:after,
-  #progress-list .section-6.progress-item a:after{background-color:#fdc04c;color:#FFFFFF}
+  #progress-list .section-6.progress-item.complete a:after{background-color:#fdc04c;color:#FFFFFF}
   #progress-list-container li.section-7:before,
   #progress-list .section-7.section-title.complete a:after,
-  #progress-list .section-7.progress-item a:after,
+  #progress-list .section-7.progress-item.complete a:after,
   #progress-list .progress-last a:after{background-color:#ff6829;color:#FFFFFF}
 
 
