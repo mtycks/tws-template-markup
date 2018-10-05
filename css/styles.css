@@ -7,6 +7,57 @@
     font-size:.8rem;
   }
 
+  .circle{
+    height: 30px;
+    width: 30px;
+    display:inline-block
+  }
+
+    .circle-inner{
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      vertical-align: middle;
+      border-radius: 15px;
+      padding: 3.5px;
+    }
+
+    .circle-inner .fa{
+      color: #FFF;
+      font-size: 15px;
+    }
+
+  #user-greeting{
+    display:inline-block;
+    color:#6D6D6D;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:.8rem;
+    margin-left:.5rem;
+    margin-right:.5rem;
+  }
+
+  #user-settings{
+    display:inline-block;
+  }
+
+    #user-settings a:hover{
+      text-decoration:none;
+    }
+
+    #user-settings a:hover .fa{
+      color:#6D6D6D;
+      text-decoration:none;
+    }
+
+    #user-settings .fa{
+      color:#CACACA;
+      vertical-align:middle;
+    }
+
+    #user-settings .fa-chevron-down{
+      font-size:.3rem;
+    }
+
 .page-header{
   background-position:center right;
   background-size: 50% auto;
@@ -32,7 +83,9 @@
   }
 
 
-#progress-list-container{}
+#progress-list-container{
+  border-right:1px solid rgba(0,0,0,0.1);
+}
 
   #progress-list{
     margin:0 0 40px 30px;
@@ -236,6 +289,16 @@ footer{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0053a0', endColorstr='#14dda2',GradientType=1 ); /* IE6-9 */
 }
 
+.blue-green-gradient-bg.vertical{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0053a0+0,00aeef+50,14dda2+100 */
+  background: #0053a0; /* Old browsers */
+  background: -moz-linear-gradient(bottom, #0053a0 0%, #00aeef 50%, #14dda2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(bottom, #0053a0 0%,#00aeef 50%,#14dda2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to top, #0053a0 0%,#00aeef 50%,#14dda2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0053a0', endColorstr='#14dda2',GradientType=1 ); /* IE6-9 */
+}
+
+
 
 @media(max-width: 1199.98px){
 
@@ -257,6 +320,12 @@ footer{
 
   html{
     font-size:125%;
+  }
+
+  #progress-list-container{
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    border-right:none;
+    margin-bottom:1.5rem!important;
   }
 
   #progress-list li.section-title{
