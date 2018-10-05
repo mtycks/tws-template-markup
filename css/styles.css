@@ -7,50 +7,55 @@
     font-size:.8rem;
   }
 
-  .circle{
-    height: 30px;
-    width: 30px;
-    display:inline-block
+  #main_menu_right a{
+    text-transform:none;
   }
 
-    .circle-inner{
-      height: 100%;
-      width: 100%;
-      text-align: center;
-      vertical-align: middle;
-      border-radius: 15px;
-      padding: 3.5px;
-    }
-
-    .circle-inner .fa{
-      color: #FFF;
-      font-size: 15px;
-    }
-
-  #user-greeting{
-    display:inline-block;
-    color:#6D6D6D;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size:.8rem;
-    margin-left:.5rem;
-    margin-right:.5rem;
+  #main_menu_right a:hover{
+    text-decoration:none;
   }
 
-  #user-settings{
-    display:inline-block;
+  #main_menu_right a:hover #user-settings .fa,
+  #main_menu_right a:hover #user-greeting{
+    color:#808080;
+    text-decoration:none;
   }
 
-    #user-settings a:hover{
-      text-decoration:none;
+    .circle{
+      height: 30px;
+      width: 30px;
+      display:inline-block
     }
 
-    #user-settings a:hover .fa{
+      .circle-inner{
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 15px;
+        padding: 5.5px;
+      }
+
+      .circle-inner .fa{
+        color: #FFF;
+        font-size: 15px;
+      }
+
+    #user-greeting{
+      display:inline-block;
       color:#6D6D6D;
-      text-decoration:none;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size:.8rem;
+      margin-left:.5rem;
+      margin-right:.5rem;
+    }
+
+    #user-settings{
+      display:inline-block;
     }
 
     #user-settings .fa{
-      color:#CACACA;
+      color:#6D6D6D;
       vertical-align:middle;
     }
 
