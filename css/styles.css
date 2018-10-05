@@ -4,7 +4,7 @@
 #main_menu{}
   #main_menu a{
     text-transform:uppercase;
-    font-size:12px;
+    font-size:.8rem;
   }
 
 .page-header{
@@ -15,13 +15,13 @@
 }
   .page-header h4{
     font-family: 'Nunito Sans', sans-serif;
-    font-size:12px;
+    font-size:.8rem;
     margin:0;
   }
 
   .page-header h1{
     font-family: 'Nunito Sans', sans-serif;
-    font-size:30px;
+    font-size:1.9rem;
     margin:0;
   }
 
@@ -70,7 +70,7 @@
   #progress-list a{
     color:#6D6D6D;
     font-family: 'Nunito Sans', sans-serif;
-    font-size:11px;
+    font-size:.7rem;
   }
 
   #progress-list .section-title a{
@@ -79,7 +79,7 @@
 
   #progress-list .section-title a:after{
     color:#FFFFFF;
-    font-size:9px;
+    font-size:.6rem;
     font-weight:bold;
     text-align:center;
     line-height:16px;
@@ -210,7 +210,7 @@ footer{
 
   footer .footer-nav-title{
     color:#00AEEF;
-    font-size:12px;
+    font-size:.8rem;
     font-weight:bold;
     text-transform:uppercase;
   }
@@ -218,13 +218,13 @@ footer{
     margin:0;
   }
   footer .list-unstyled a{
-    font-size:11px;
+    font-size:.8rem;
     color:#3e3e3e;
   }
 
 #copyright{
   color:#FFFFFF;
-  font-size:12px;
+  font-size:.8rem;
 }
 
 .blue-green-gradient-bg{
@@ -254,6 +254,29 @@ footer{
 }
 
 @media(max-width: 767.98px){
+
+  html{
+    font-size:125%;
+  }
+
+  #progress-list li.section-title{
+    display:inline-block;
+  }
+    .progress-item{
+      display:none;
+    }
+
+    #progress-list-container li:before {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+    }
+
+    #progress-list .section-title a:after {
+        left: -10px;
+        top: -8px;
+    }
 
   footer{
     background-image:none;
