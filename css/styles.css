@@ -333,9 +333,29 @@ footer{
     margin-bottom:1.5rem!important;
   }
 
+  #progress-list{
+    margin:0;
+  }
+
   #progress-list li.section-title{
     display:inline-block;
+    min-width:13%;
   }
+
+  #progress-list li.section-title.progress-last{
+    max-width:2px !important; min-width:2px !important;
+    width:2px !important;
+  }
+
+    #progress-list li.section-title a{
+      display:inline-block;
+      min-width:55px;
+    }
+
+    #progress-list li.section-title a span{
+      display:none
+    }
+
     .progress-item{
       display:none;
     }
@@ -358,4 +378,10 @@ footer{
 
 }
 
-@media(max-width: 575.98px){  }
+@media(max-width: 575.98px){
+
+  #progress-list li.section-title{
+    width:12.5% !important;
+  }
+
+}
